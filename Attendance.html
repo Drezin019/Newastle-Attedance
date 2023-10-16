@@ -1,116 +1,153 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awards</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newcastle Attendance</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 class="imagem-header">
+      <img src="castelo.png" alt="Newcastle Attendance" />
+    </h2>
 
-    <header>Newcastle Attendance</header>
+    <form>
+      <fieldset>
+       <br />
+        <input type="text" name="Escreva seu nome" placeholder=" Nome Completo do Aluno" />
+        <br />
 
-    <h1>Nome Completo do Aluno</h1>
-   <input type="text" name="Escreva seu nome" id="">
+        <br />
+        <select name="" class="dropdown" required>
+          <option selected disabled class="form_select_option" value="">
+            Qual unidade da newcastle você estuda?
+          </option>
+          <option value="Orosimbo Maia" class="form_select_option">
+            Orosimbo Maia
+          </option>
+          <option value="Sumaré" class="form_select_option">Sumaré</option>
+          <option value="Barão Geraldo" class="form_select_option">
+            Barão Geraldo
+          </option>
+          <option value="Ouro verde" class="form_select_option">
+            Ouro Verde
+          </option>
+          <option value="Hortolandia" class="form_select_option">
+            Hortolandia
+          </option>
+          <option value="Piracicaba" class="form_select_option">
+            Piracicaba
+          </option>
+          <option value="Indaiatuba" class="form_select_option">
+            Indaiatuba
+          </option>
+        </select>
+        <br />
 
-   <h1>Qual unidade da Newcastle é a sua?</h1>
-   <label for="Unidades" class="text"></label>
-   <select name="" class="dropdown" required>
-       
-       <option selected disabled class="form_select_option" value="">Selecione</option>
-       <option value="Orosimbo Maia" class="form_select_option">Orosimbo Maia</option>
-       <option value="Sumaré" class="form_select_option">Sumaré </option>
-       <option value="Barão Geraldo" class="form_select_option">Barão Geraldo</option>                    
-       <option value="Ouro verde" class="form_select_option">Ouro Verde</option>        
-       <option value="Hortolandia" class="form_select_option">Hortolandia</option>   
-       <option value="Piracicaba" class="form_select_option">Piracicaba</option>   
-       <option value="Indaiatuba" class="form_select_option">Indaiatuba</option>               
-   
-   </select>
+        <br />
 
-   <h1>Qual foi o horário da aula?</h1>
-   <label for="horario" class="text"></label>
-   <select name="" class="dropdown" required>
-       
-       <option selected disabled class="form_select_option" value="">Selecione</option>
-       <option value="8:15" class="form_select_option">8:15</option>
-       <option value="8:30" class="form_select_option">8:30</option>
-       <option value="9:30" class="form_select_option">9:30</option>
-       <option value="9:45" class="form_select_option">9:45</option>
-       <option value="11:00" class="form_select_option">11:00</option>                    
-       <option value="14:00" class="form_select_option">14:00</option>        
-       <option value="15:15" class="form_select_option">15:15</option>   
-       <option value="16:30" class="form_select_option">16:30</option>   
-       <option value="17:15" class="form_select_option">17:15</option>         
-       <option value="18:00" class="form_select_option">18:00</option>     
-       <option value="19:20" class="form_select_option">19:20</option>
-       <option value="20:30" class="form_select_option">20:30</option>
-   
-   </select>
+        <select name="" class="dropdown" required>
+          <option selected disabled class="form_select_option" value="">
+            Qual foi o horario da aula?
+          </option>
+          <option value="8:15" class="form_select_option">8:15</option>
+          <option value="8:30" class="form_select_option">8:30</option>
+          <option value="9:30" class="form_select_option">9:30</option>
+          <option value="9:45" class="form_select_option">9:45</option>
+          <option value="11:00" class="form_select_option">11:00</option>
+          <option value="14:00" class="form_select_option">14:00</option>
+          <option value="15:15" class="form_select_option">15:15</option>
+          <option value="16:30" class="form_select_option">16:30</option>
+          <option value="17:15" class="form_select_option">17:15</option>
+          <option value="18:00" class="form_select_option">18:00</option>
+          <option value="19:20" class="form_select_option">19:20</option>
+          <option value="20:30" class="form_select_option">20:30</option>
+        </select>
+        <br />
 
-   <h1>Qual foi o nivel da aula?</h1>
-   <label for="nivel" class="text"></label>
-   <select name="" class="dropdown" required>
-       
-       <option selected disabled class="form_select_option" value="">Selecione</option>
-       <option value="Communication" class="form_select_option">Communication</option>
-       <option value="Interaction" class="form_select_option">Interaction</option>
-       <option value="Fluency" class="form_select_option">Fluency</option>
-       <option value="Communication/Interaction" class="form_select_option">Communication/Interaction</option>
-       <option value="Interaction/Fluency" class="form_select_option">Interaction/Fluency</option>                    
-   
-   </select>
+        <br />
 
-   <h1>Qual foi o tipo da aula?</h1>
-   <label for="aula" class="text"></label>
-   <select name="" class="dropdown" required>
-       
-       <option selected disabled class="form_select_option" value="">Selecione</option>
-       <option value="Speak up" class="form_select_option">Speak up</option>
-       <option value="Write it up" class="form_select_option">Write it up</option>
-       <option value="Proficiency" class="form_select_option">Proficiency</option>
-       <option value="Special cLass" class="form_select_option">Special class</option>
-       <option value="Live it up" class="form_select_option">Live it up</option>
-       <option value="Ted Talk" class="form_select_option">Ted Talk</option>
-       <option value="Unit 1" class="form_select_option">Unit 1</option>
-       <option value="Unit 2" class="form_select_option">Unit 2</option>
-       <option value="Unit 3" class="form_select_option">Unit 3</option>
-       <option value="Unit 4" class="form_select_option">Unit 4</option>
-       <option value="Unit 5" class="form_select_option">Unit 5</option>                    
-       <option value="Unit 6" class="form_select_option">Unit 6</option>        
-       <option value="Unit 7" class="form_select_option">Unit 7</option>   
-       <option value="Unit 8" class="form_select_option">Unit 8</option>   
-       <option value="Unit 9" class="form_select_option">Unit 9</option>         
-       <option value="Unit 10" class="form_select_option">Unit 10</option>     
-       <option value="Unit 11" class="form_select_option">Unit 11</option>
-       <option value="Unit 12" class="form_select_option">Unit 12</option>
-       <option value="Unit 13" class="form_select_option">Unit 13</option>
-       <option value="Unit 14" class="form_select_option">Unit 14</option>
-       <option value="Unit 15" class="form_select_option">Unit 15</option>
-       <option value="Unit 16" class="form_select_option">Unit 16</option>
+        <select name="" class="dropdown" required>
+          <option selected disabled class="form_select_option" value="">
+           Qual foi o nivel da aula?
+          </option>
+          <option value="Communication" class="form_select_option">
+            Communication
+          </option>
+          <option value="Interaction" class="form_select_option">
+            Interaction
+          </option>
+          <option value="Fluency" class="form_select_option">Fluency</option>
+          <option value="Communication/Interaction" class="form_select_option">
+            Communication/Interaction
+          </option>
+          <option value="Interaction/Fluency" class="form_select_option">
+            Interaction/Fluency
+          </option>
+        </select>
+        <br />
 
-   </select>
+       <br />
 
-   <h1>Qual foi o professor da aula?</h1>
-   <label for="Professor" class="text"></label>
-   <select name="" class="dropdown" required>
-       
-       <option selected disabled class="form_select_option" value="">Selecione</option>
-       <option value="André" class="form_select_option">André</option>
-       <option value="Daniel" class="form_select_option">Daniel</option>
-       <option value="Carolina" class="form_select_option">Carolina</option>
-       <option value="Gustavo" class="form_select_option">Gustavo</option>
-       <option value="Luiz" class="form_select_option">Luiz</option>                    
-   
-   </select>
+        <select name="" class="dropdown" required>
+          <option selected disabled class="form_select_option" value="">
+            Qual foi o tipo da aula?
+          </option>
+          <option value="Speak up" class="form_select_option">Speak up</option>
+          <option value="Write it up" class="form_select_option">
+            Write it up
+          </option>
+          <option value="Proficiency" class="form_select_option">
+            Proficiency
+          </option>
+          <option value="Special cLass" class="form_select_option">
+            Special class
+          </option>
+          <option value="Live it up" class="form_select_option">
+            Live it up
+          </option>
+          <option value="Ted Talk" class="form_select_option">Ted Talk</option>
+          <option value="Unit 1" class="form_select_option">Unit 1</option>
+          <option value="Unit 2" class="form_select_option">Unit 2</option>
+          <option value="Unit 3" class="form_select_option">Unit 3</option>
+          <option value="Unit 4" class="form_select_option">Unit 4</option>
+          <option value="Unit 5" class="form_select_option">Unit 5</option>
+          <option value="Unit 6" class="form_select_option">Unit 6</option>
+          <option value="Unit 7" class="form_select_option">Unit 7</option>
+          <option value="Unit 8" class="form_select_option">Unit 8</option>
+          <option value="Unit 9" class="form_select_option">Unit 9</option>
+          <option value="Unit 10" class="form_select_option">Unit 10</option>
+          <option value="Unit 11" class="form_select_option">Unit 11</option>
+          <option value="Unit 12" class="form_select_option">Unit 12</option>
+          <option value="Unit 13" class="form_select_option">Unit 13</option>
+          <option value="Unit 14" class="form_select_option">Unit 14</option>
+          <option value="Unit 15" class="form_select_option">Unit 15</option>
+          <option value="Unit 16" class="form_select_option">Unit 16</option>
+        </select>
+        <br />
 
-   <h1>Dê o seu feedback!</h1>
-   <input type="text" name="Escreva o seu feedback" id="">
+        <br />
 
-   <h1><button type="submit"><a href="Main.html">Voltar</a></button>
-    <button type="submit">Enviar</button></h1>
+        <select name="" class="dropdown" required>
+          <option selected disabled class="form_select_option" value="">
+            Qual foi o professor da aula?
+          </option>
+          <option value="André" class="form_select_option">André</option>
+          <option value="Daniel" class="form_select_option">Daniel</option>
+          <option value="Carolina" class="form_select_option">Carolina</option>
+          <option value="Gustavo" class="form_select_option">Gustavo</option>
+          <option value="Luiz" class="form_select_option">Luiz</option>
+        </select>
+        <br />
 
-
-
-</body>
+        <br /> 
+        <input type="text" name="Nos dê o seu feedback" placeholder="Nos dê o seu feedback" />
+        <br> <br>
+        <Div>
+        <button class="Voltar" type="submit"><a href="Main.html">Voltar</a></button>
+        <button class="Enviar" type="submit">Enviar</button></Div>
+        <br /> 
+      </fieldset>
+    </form>
+  </body>
 </html>

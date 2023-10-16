@@ -1,0 +1,65 @@
+header{ 
+    background-color: blanchedalmond;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border: solid;
+
+}
+
+img {
+    max-width: 20vh;
+}
+
+.imagem-header{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+
+}
+
+input{
+    border: 0.15h solid #696969;
+    background: none;
+    padding: 0.8em;
+    font-size: 1em;
+    color: #696969;
+    width: 32vh;
+
+  
+}
+
+.dropdown{
+    border: 0.15h solid #696969;
+    background: none;
+    padding: 0.8em;
+    font-size: 1em;
+    color: #696969;
+    width: 35vh;
+}
+
+.form_select_option{
+    size: 1vh;
+}
+
+.Enviar{
+
+}
+
+.Voltar{
+}
+
+fieldset{
+    padding: 50px;
+} 
